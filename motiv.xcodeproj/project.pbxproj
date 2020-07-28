@@ -14,6 +14,7 @@
 		298445DB24D07BBC00266720 /* motiv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 298445D924D07BBC00266720 /* motiv.xcdatamodeld */; };
 		298445DD24D07BBE00266720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298445DC24D07BBE00266720 /* Assets.xcassets */; };
 		298445E024D07BBE00266720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298445DE24D07BBE00266720 /* LaunchScreen.storyboard */; };
+		F6F0C0CF24D07F1200FD22FB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F0C0CE24D07F1200FD22FB /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		298445DC24D07BBE00266720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		298445DF24D07BBE00266720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		298445E124D07BBE00266720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F0C0CE24D07F1200FD22FB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				298445DE24D07BBE00266720 /* LaunchScreen.storyboard */,
 				298445E124D07BBE00266720 /* Info.plist */,
 				298445D924D07BBC00266720 /* motiv.xcdatamodeld */,
+				F6F0C0CE24D07F1200FD22FB /* SecondViewController.swift */,
 			);
 			path = motiv;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				298445D524D07BBC00266720 /* ViewController.swift in Sources */,
 				298445DB24D07BBC00266720 /* motiv.xcdatamodeld in Sources */,
 				298445D124D07BBC00266720 /* AppDelegate.swift in Sources */,
+				F6F0C0CF24D07F1200FD22FB /* SecondViewController.swift in Sources */,
 				298445D324D07BBC00266720 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
