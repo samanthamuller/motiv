@@ -9,14 +9,36 @@
 import UIKit
 
 class fourthViewController: UIViewController {
-
+    
+    @IBOutlet weak var ImageOneCreateBoard: UIImageView!
+    @IBOutlet weak var ImageTwoCreateBoard: UIImageView!
+    @IBOutlet weak var ImageThreeCreateBoard: UIImageView!
+    @IBOutlet weak var ImageFourCreateBoard: UIImageView!
+    
+    @IBOutlet weak var dreamTextView: UITextView!
+    
+    @IBOutlet weak var backPgFour: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    private func imagePickerController(_picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]){
+        
+        if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
+            displayImage.image = selectedImage
+        }
+        
+        imageChoose .dismess(animated: true, completion: nil)
+        
+    }
+    
+    
+    @IBAction func backArrowTappedPg4(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 

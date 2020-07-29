@@ -10,6 +10,8 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var backPgTwo: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,6 +19,12 @@ class SecondViewController: UIViewController {
     }
     
 
+    @IBAction func createBoardTapped(_ sender: Any) {
+    }
+    
+    @IBAction func homePgTwoTapped(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 

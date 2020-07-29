@@ -10,13 +10,16 @@ import UIKit
 
 class fifthViewController: UIViewController {
 
+    @IBOutlet weak var backPgFive: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func backArrowTappedPgFive(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 
