@@ -28,13 +28,21 @@ class fourthViewController: UIViewController {
     private func imagePickerController(_picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]){
         
         if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
-            displayImage.image = selectedImage
+            ImageOneCreateBoard.image = selectedImage
+        }
+        if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
+        ImageTwoCreateBoard.image = selectedImage
+        }
+        if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
+        ImageThreeCreateBoard.image = selectedImage
+        }
+        if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
+        ImageFourCreateBoard.image = selectedImage
         }
         
-        imageChoose .dismess(animated: true, completion: nil)
+        
         
     }
-    
     
     @IBAction func backArrowTappedPg4(_ sender: Any) {
     }

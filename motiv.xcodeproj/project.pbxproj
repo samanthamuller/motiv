@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		296A9C9224D2595A00C9AEFF /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A9C9124D2595A00C9AEFF /* SixthViewController.swift */; };
+		296A9C9424D25AB100C9AEFF /* seventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296A9C9324D25AB100C9AEFF /* seventhViewController.swift */; };
 		298445D124D07BBC00266720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298445D024D07BBC00266720 /* AppDelegate.swift */; };
 		298445D324D07BBC00266720 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298445D224D07BBC00266720 /* SceneDelegate.swift */; };
 		298445D524D07BBC00266720 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298445D424D07BBC00266720 /* ViewController.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		296A9C9124D2595A00C9AEFF /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		296A9C9324D25AB100C9AEFF /* seventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seventhViewController.swift; sourceTree = "<group>"; };
 		298445CD24D07BBC00266720 /* motiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motiv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		298445D024D07BBC00266720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		298445D224D07BBC00266720 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				F6F0C0D024D07FB400FD22FB /* thirdViewController.swift */,
 				F6F0C0D424D0800000FD22FB /* fifthViewController.swift */,
 				F6F0C0D224D07FE600FD22FB /* fourthViewController.swift */,
+				296A9C9124D2595A00C9AEFF /* SixthViewController.swift */,
+				296A9C9324D25AB100C9AEFF /* seventhViewController.swift */,
 			);
 			path = motiv;
 			sourceTree = "<group>";
@@ -153,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296A9C9424D25AB100C9AEFF /* seventhViewController.swift in Sources */,
 				298445D524D07BBC00266720 /* ViewController.swift in Sources */,
+				296A9C9224D2595A00C9AEFF /* SixthViewController.swift in Sources */,
 				298445DB24D07BBC00266720 /* motiv.xcdatamodeld in Sources */,
 				F6F0C0D324D07FE600FD22FB /* fourthViewController.swift in Sources */,
 				F6F0C0D124D07FB500FD22FB /* thirdViewController.swift in Sources */,
